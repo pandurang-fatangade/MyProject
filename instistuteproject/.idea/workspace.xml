@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30683d00-2d57-4375-864e-61b9a9ee3ea0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OXKN3E99Vh80UajZ0zI3qPmk5O" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workshop Project Python\Practice project\instistuteproject\static\images" />
+      <recent name="D:\Workshop Project Python\Practice project\instistuteproject\static\css" />
+      <recent name="D:\Workshop Project Python\Practice project\instistuteproject\static\js" />
+      <recent name="D:\Workshop Project Python\Practice project\instistuteproject\instistuteapp" />
+      <recent name="D:\Workshop Project Python\Practice project\instistuteproject\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="instistuteproject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="instistuteproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="instistuteproject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30683d00-2d57-4375-864e-61b9a9ee3ea0" name="Default Changelist" comment="" />
+      <created>1558419130674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558419130674</updated>
+      <workItem from="1558419133658" duration="4820000" />
+      <workItem from="1558425232712" duration="713000" />
+      <workItem from="1558504639305" duration="6386000" />
+      <workItem from="1558511240919" duration="156000" />
+      <workItem from="1558590805845" duration="4358000" />
+      <workItem from="1558603460005" duration="2502000" />
+      <workItem from="1558606107089" duration="642000" />
+      <workItem from="1558668062254" duration="1215000" />
+      <workItem from="1558670653419" duration="741000" />
+      <workItem from="1558673808587" duration="12000" />
+      <workItem from="1558676459555" duration="4617000" />
+      <workItem from="1558700356912" duration="265000" />
+      <workItem from="1558715989347" duration="4218000" />
+      <workItem from="1558728406373" duration="646000" />
+      <workItem from="1558757929628" duration="1929000" />
+      <workItem from="1558762300355" duration="7898000" />
+      <workItem from="1558796938709" duration="5596000" />
+      <workItem from="1558810074252" duration="2031000" />
+      <workItem from="1558842683695" duration="8704000" />
+      <workItem from="1558931277457" duration="12738000" />
+      <workItem from="1559023145546" duration="1962000" />
+      <workItem from="1559056578746" duration="4682000" />
+      <workItem from="1559369090855" duration="10260000" />
+      <workItem from="1559414306481" duration="809000" />
+      <workItem from="1559502017910" duration="1192000" />
+      <workItem from="1559547010657" duration="702000" />
+      <workItem from="1559561058053" duration="680000" />
+      <workItem from="1559588111955" duration="591000" />
+      <workItem from="1559651897351" duration="429000" />
+      <workItem from="1559668817016" duration="3322000" />
+      <workItem from="1560741911897" duration="382000" />
+      <workItem from="1560754783356" duration="639000" />
+      <workItem from="1560783516305" duration="780000" />
+      <workItem from="1561050167675" duration="866000" />
+      <workItem from="1561090191898" duration="3895000" />
+      <workItem from="1561206256133" duration="992000" />
+      <workItem from="1561281379406" duration="776000" />
+      <workItem from="1561903240446" duration="2892000" />
+      <workItem from="1561957886336" duration="589000" />
+      <workItem from="1561977028830" duration="837000" />
+      <workItem from="1562162834203" duration="588000" />
+      <workItem from="1564118463045" duration="381000" />
+      <workItem from="1564752781037" duration="1316000" />
+      <workItem from="1565157106927" duration="1175000" />
+      <workItem from="1565170133553" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/gallery_page.html</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

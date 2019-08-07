@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+<html>
+<head>
+    <title>OurTeam Page</title>
+     <meta charset="utf-8">
+     {% load staticfiles %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <link rel='stylesheet' href="{% static 'bootstrap/css/font-awesome-5.8.1.css' %}">
+    <link rel='stylesheet' href="{% static 'bootstrap/css/bootstrap.css' %}">
+     <link rel='stylesheet' href="{% static 'bootstrap/css/mdb.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+{#<style>#}
+{#    .con1{#}
+{#        filter: grayscale(0);#}
+{#        transform: scale(1.1);#}
+{##}
+{#    }#}
+{#    .con1 img.hover{#}
+{#        filter: grayscale(0);#}
+{#        ransform: scale(1.5);#}
+{#        background-color: lightblue;#}
+{#    }#}
+{##}
+{##}
+{#</style>#}
+<body>
+{% block content %}
+
+
+    <div class="container con1" style="background-color: lightslategray">
+      <div class="row">
+          <div class="col-md-6">
+              <a href="{% static 'images/IMG20180905075039.jpg' %}" data-lightbox="container"><img src="{% static 'images/IMG20180905075039.jpg' %}" style="height: 100%; width: 100%"></a>
+              <pre>
+                  python developers
+                  python is scripting language
+                  python is a easy lang
+               </pre>
+          </div>
+          <div class="col-md-6">
+              <a href="{% static 'images/IMG_9857.jpg5555.jpg' %}" data-lightbox="container"><img src="{% static 'images/IMG_9857.jpg5555.jpg' %}" style="height: 100%; width: 100%"></a>
+          </div>
+          <div class="row mt-20px">
+          <div class="col-md-6">
+              <a href="{% static 'images/IMG_20180815_144408 - Copy (1).jpg' %}" data-lightbox="container"></a><img src="{% static 'images/IMG_20180815_144408 - Copy (1).jpg' %}" style="height: 100%; width: 100%">
+          </div>
+          <div class="col-md-6">
+              <a href="{% static 'images/IMG_20180815_144427 - Copy (1).jpg' %}" data-lightbox="container"><img src="{% static 'images/IMG_20180815_144427 - Copy (1).jpg' %}" style="height: 100%; width: 100%"></a>
+          </div>
+          </div>
+      </div>
+    <center><a href="/#/" style="text-decoration: none">Goto main page</a></center>
+    </div>
+
+    <div class="team">
+     <h1>Hour team</h1>
+    <span class="sp1"></span>
+    <div class="pics">
+        <a href="#p1"><img src="{% static 'images/images6.jpg' %}"></a>
+        <a href="#p1"><img src="{% static 'images/images2.jpg' %}"></a>
+        <a href="#p1"><img src="{% static 'images/images5.jpg' %}"></a>
+    </div>
+    <div class="section" id="p1">
+        <h1 class="name">paddy</h1>
+        <span class="sp1"></span>
+        <center><p>python is a scripting language</p></center>
+    </div>
+    <div class="section" id="p2">
+        <h1 class="name">yuvraj</h1>
+        <span class="sp1"></span>
+        <center><p>Javascript is a object based languge</p></center>
+    </div>
+    <div class="section" id="p3">
+        <h1 class="name">akshy</h1>
+        <span class="sp1"></span>
+        <center><p>Java is a object oriented  languge</p></center>
+    </div>
+    </div>
+{% endblock %}
+</body>
+</html>

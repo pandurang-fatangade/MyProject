@@ -1,0 +1,90 @@
+ {% extends 'base.html' %}
+<html>
+<head>
+    <title>Gallery Page</title>
+     <meta charset="utf-8">
+     {% load staticfiles %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <link rel='stylesheet' href="{% static 'bootstrap/css/font-awesome-5.8.1.css' %}">
+    <link rel='stylesheet' href="{% static 'bootstrap/css/bootstrap.css' %}">
+     <link rel='stylesheet' href="{% static 'bootstrap/css/mdb.css' %}">
+</head>
+<style>
+    .container{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    .container img.hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+    body{
+        background-color: #d74444;
+    }
+</style>
+<body>
+{% block content %}
+{#    <div class="container"  style="background-color: tomato">#}
+{#    <div class="row">#}
+{#        <div class="col-md-6">#}
+{#            <img src="{% static 'images/images1.jpg' %}" style="width: 100%; height: 50%;" class="animated jello">#}
+{#        </div>#}
+{#        <div class="col-md-6">#}
+{#            <img src="{% static 'images/images2.jpg' %}" style="width: 100%; height: 50%;">#}
+{#        </div>#}
+{#    </div>#}
+{#        <br>#}
+
+{#    <div class="row">#}
+{#        <div class="col-md-3">#}
+{#            <img src="{% static 'images/images9.jpg' %}" style="width: 100%; height: 50%;">#}
+{#        </div>#}
+{#        <div class="col-md-3">#}
+{#            <img src="{% static 'images/images10.jpg' %}" style="width: 100%; height: 50%;">#}
+{#        </div>#}
+{#        <div class="col-md-3">#}
+{#            <img src="{% static 'images/images6.jpg' %}">#}
+{#        </div>#}
+{#        <div class="col-md-3">#}
+{#            <img src="{% static 'images/images7.jpg' %}">#}
+{#        </div>#}
+{#    </div><br>#}
+{#      <div class="row">#}
+{#         <div class="col-md-6">#}
+{#             <img src="{% static 'images/images6.jpg' %}">#}
+{#         </div>#}
+{#         <div class="col-md-6">#}
+{#             <img src="{% static 'images/images7.jpg' %}">#}
+{#         </div>#}
+{#      </div>#}
+{#     <br><br><br>#}
+{#    </div>#}
+{#    </div>#}
+    <div class="container" style="background-color: lightsalmon">
+      <div class="row">
+          <div class="col-md-6 img-fluid" style="width: 100%; height: 100%">
+             <a href="{% static 'images/adult-beverage-brainstorming-541522.jpg' %}" data-lightbox="container"> <img src="{% static 'images/adult-beverage-brainstorming-541522.jpg' %}"  style="width: 100%; height: 70%"></a>
+          </div>
+          <div class="col-md-6">
+              <a href="{% static 'images/adult-blur-business-2102416.jpg' %}" data-lightbox="container"><img src="{% static 'images/adult-blur-business-2102416.jpg' %}" style="width: 100%; height: 70%"></a>
+          </div>
+      </div><br>
+        <div class="row">
+            <div class="col-md-6 img-fluid">
+              <a href="{% static 'images/adult-brainstorming-chair-515167.jpg' %}" data-lightbox="container"><img src="{% static 'images/adult-brainstorming-chair-515167.jpg' %}"  style="width: 100%; height: 70%"></a>
+          </div>
+          <div class="col-md-6">
+              <a href="{% static 'images/c.jpg' %}" data-lightbox="container"><img src="{% static 'images/c.JPG' %}"  style="width: 100%; height: 70%"></a>
+          </div>
+        </div>
+    </div>
+    <div class="container" style="background-color: lightsalmon">
+    <div>
+            <center><a href="/#/" style="text-align: center;text-decoration: none";><span style="background-color: #880e4f">Goto main page</span></a></center><br><br>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>
